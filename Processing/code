@@ -1,0 +1,14 @@
+void setup() {
+  size(700,700);
+}
+
+void draw() {
+  background(200,200,0);
+
+  stroke(250,200,0);
+  fill(100);
+  ellipse(300, 300, 200, 200);
+
+  if (mousePressed) {
+    rect(mouseX,mouseY,300,100);
+  }
